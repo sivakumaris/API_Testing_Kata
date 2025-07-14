@@ -1,55 +1,126 @@
-# Kata API Testing in Java
+# 🧪 Booking API – Automation Framework
 
-API Testing and Java Exercise: Setting up a Basic API Test Automation Framework.
+This project is a robust API automation framework using **Java**, **TestNG**, and **RestAssured**, enriched with **Allure Reporting** for dynamic, insightful test visualization. It’s designed for easy onboarding, modular scalability, and professional-grade reporting.
 
-## Objective
-The objective of this exercise is to evaluate your knowledge on API testing and Java by setting up a basic API Test Automation framework using Rest-Assured and Cucumber. You will need to create a test suite that executes a few tests against one endpoint of a hotel booking website and evaluates their responses.
+It covers:
+- CRUD operations via APIs
+- Validation of Create Booking API and Delete Booking API
+- Create booking API fields validation and error responses
+- Logging and reporting with Allure
+- CI-ready Maven setup
 
-## Background
-The application under test is a simple hotel booking website where you can book a room and also send a form with a request.
+---
 
-The website can be accessed at https://automationintesting.online/.
+## 📦 Technologies Used
 
-The Swagger documentation for the two endpoints you will be testing can be found at:
+- Java 11+
+- Maven 3.6+
+- TestNG
+- RestAssured
+- Allure Report
+- IntelliJ IDEA
 
-Booking endpoint: https://automationintesting.online/booking/swagger-ui/index.html
-Optionally, you also have the Authentican endpoint: https://automationintesting.online/auth/swagger-ui/index.html
+---
 
-## Task
-You are provided with an extremely basic API test project.
+## 🚀 Getting Started
 
-Please clone the project and create a new branch with your name. At the end, please push your branch to this project.
+### 🔧 Requirements
+Before you run the project, make sure you have the following installed:
 
-The project to start from, can be found here: https://github.com/freddyschoeters/API_Testing_kata
-
-Your task is to set up an API Test Automation framework from this project using Java, Rest-Assured, and Cucumber (feel free to add more dependencies if required).
-
-It is up to you to define the test cases. You don’t need to have a full coverage, but you need to show enough variation on the types of tests that you would need to write and execute, and what to check in the response.
-
-This kata has the purpose to evaluate both your technical skills as well as your testing skills.
-
-`For this task, you will use the booking endpoint.`
-
-
-## Requirements
-* Use Java as the programming language
-* Use Rest-Assured as the API testing library
-* Use Cucumber as the BDD framework
-* Design your codebase using a proper Java design pattern
-* Write good tests with correct checks
-* Use Git for version control and push your codebase to an open GitHub repository
-* Make regular commits to demonstrate your progress
+#### Install in IntelliJ
+- Java 17 SDK
+- Maven (Bundled or install separately)
+- IntelliJ Plugins:
+  - **TestNG** (Settings > Plugins > Marketplace)
+  - **Allure Test Report** (optional, for preview inside IDE)
 
 
-## Deliverables
-* Your branch pushed in the provided project.
-* A comprehensive test suite covering the scenarios mentioned above
-* A well-structured codebase with proper design patterns and comments
-* Regular commits demonstrating your progress
+#### Install Allure CLI (Required for generating reports)
+🟢 **For Windows:**
+choco install allure
+    
+🟢 **For Mac (Homebrew):**
+brew install allure
 
-## Evaluation Criteria
-* Being able to successfully run the tests
-* Correctness and completeness of the test suite
-* Quality of the codebase (design patterns, structure, code quality, …)
-* Use of Rest-Assured and Cucumber features
-* Commit history and progress demonstration
+🟢 **For Linux:**
+sudo apt install allure
+After installing, **run allure --version** to verify
+
+---
+
+## Project Setup in IntelliJ
+
+1. Clone the project:
+   git clone https://github.com/sivakumaris/API_Testing_Kata.git
+2. Open the project in IntelliJ IDEA.
+3. Set SDK:
+   File → Project Structure → Project SDK → Java 11+
+4. Enable annotation processing:
+   - File → Settings → Build, Execution, Deployment → Compiler → Annotation Processors
+   - Check "Enable annotation processing"
+5. Install IntelliJ Plugins (recommended):
+    - TestNG
+    - Allure Framework
+
+---
+
+## 🧪 Running the Tests
+### ▶️ Run via IntelliJ (testng.xml)
+1. Locate testng.xml in the root directory.
+2. Right-click → Run testng.xml.
+
+### 🔁 Run via Maven
+1. mvn clean test
+   Or specify the suite file
+2. mvn clean test -DsuiteXmlFile=testng.xml
+
+---
+
+##  📊 Generating Allure Report
+After test execution, Allure results are saved to allure-results
+
+### ✅ Generate and View Report
+- allure generate allure-results --clean -o allure-report
+- allure open allure-report
+
+---
+
+## 🌐 Hosting the Report on GitHub Pages
+1. Switch to gh-pages branch or create one:
+    - git checkout --orphan gh-pages
+    - git rm -rf .
+    - cp -r allure-report/* .
+    - git add .
+    - git commit -m "Deploy Allure report"
+    - git push origin gh-pages
+      
+2. Go to your repo → Settings → Pages
+    - Source: gh-pages
+    - Folder: /root
+    - Your report will be live at your Repo.Similar like:
+      https://sivakumaris.github.io/API_Testing_Kata/
+
+---
+
+## ⚠️ Troubleshooting
+### ❗ Tests not running?
+  1. Check if testng.xml includes your test classes
+  2. Confirm IntelliJ is using Java 17
+  3. Try: Build > Rebuild Project in IntelliJ
+
+### ❗ Allure not recognized?
+  1. Check if Allure CLI is in system PATH
+  2. Restart terminal or system after installation
+
+
+
+
+
+
+
+
+
+
+
+
+
