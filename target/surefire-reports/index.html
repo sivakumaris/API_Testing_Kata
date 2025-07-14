@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Booking_API_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Booking API Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Booking_API_Suite" class="navigator-link ">
+                    <span>C:\Users\91994\Desktop\Assignments\Expleo_API_Testing_Kata\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Booking_API_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Booking_API_Suite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Booking_API_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Booking_API_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Booking_API_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Booking_API_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">46 methods, 6 failed,   40 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Booking_API_Suite" class="hide-methods failed suite-Booking_API_Suite"> (hide)</a> <!-- hide-methods failed suite-Booking_API_Suite -->
+                      <a href="#" panel-name="suite-Booking_API_Suite" class="show-methods failed suite-Booking_API_Suite"> (show)</a> <!-- show-methods failed suite-Booking_API_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Booking_API_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingDatesErrorMsg(2025-12-01, 2024-11-30, 400, [Checkout Date is less than Current Date], Validate Error Msg - Checkou...)">bookingDatesErrorMsg(2025-12-01, 2024-11-30, 400, [Checkout Date is less than Current Date], Validate Error Msg - Checkou...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingDatesErrorMsg(2024-12-25, 2024-12-26, 400, [Checkin Date is less than Current Date, Checkout Date is less than Cur...)">bookingDatesErrorMsg(2024-12-25, 2024-12-26, 400, [Checkin Date is less than Current Date, Checkout Date is less than Cur...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingDatesErrorMsg(2025-12-01, 2025-11-30, 400, [Checkout Date is less than Checkin], Validate Error Msg - Checkout Dat...)">bookingDatesErrorMsg(2025-12-01, 2025-11-30, 400, [Checkout Date is less than Checkin], Validate Error Msg - Checkout Dat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingDatesErrorMsg(2025-12-01, 2025-12-02, 400, [Both Dates are Same], Validate Error Msg - Both Checkin and Checkout d...)">bookingDatesErrorMsg(2025-12-01, 2025-12-02, 400, [Both Dates are Same], Validate Error Msg - Both Checkin and Checkout d...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingDatesErrorMsg(2024-12-01, 2025-11-30, 400, [Checkin Date is less than Current Date], Validate Error Msg - Checkin ...)">bookingDatesErrorMsg(2024-12-01, 2025-11-30, 400, [Checkin Date is less than Current Date], Validate Error Msg - Checkin ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Siva, Kumari, true, test@gmail, 24433234324, 400, [must not be empty], Validate Error Msg - Email...)">bookingFieldsErrorMsg(2, Siva, Kumari, true, test@gmail, 24433234324, 400, [must not be empty], Validate Error Msg - Email...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Booking_API_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Booking_API_Suite" class="hide-methods passed suite-Booking_API_Suite"> (hide)</a> <!-- hide-methods passed suite-Booking_API_Suite -->
+                      <a href="#" panel-name="suite-Booking_API_Suite" class="show-methods passed suite-Booking_API_Suite"> (show)</a> <!-- show-methods passed suite-Booking_API_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Booking_API_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingDatesErrorMsg(2025-12-01, null, 400, [must not be null], Validate Error Msg - CheckOut Date is null)">bookingDatesErrorMsg(2025-12-01, null, 400, [must not be null], Validate Error Msg - CheckOut Date is null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingDatesErrorMsg(2025/12/01, 2025-12-02, 400, [Failed to create booking], Validate Error Msg - Checkin Date format pa...)">bookingDatesErrorMsg(2025/12/01, 2025-12-02, 400, [Failed to create booking], Validate Error Msg - Checkin Date format pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingDatesErrorMsg(null, null, 400, [must not be null, must not be null], Validate Error Msg - CheckOut Date is null)">bookingDatesErrorMsg(null, null, 400, [must not be null, must not be null], Validate Error Msg - CheckOut Date is null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingDatesErrorMsg(null, 2025-12-01, 400, [must not be null], Validate Error Msg - Checkin Date is null)">bookingDatesErrorMsg(null, 2025-12-01, 400, [must not be null], Validate Error Msg - Checkin Date is null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingDatesErrorMsg(test, 2025-12-01, 400, [Failed to create booking], Validate Error Msg - Checkin Date is not Date Val...)">bookingDatesErrorMsg(test, 2025-12-01, 400, [Failed to create booking], Validate Error Msg - Checkin Date is not Date Val...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingDatesErrorMsg(2025-12-01, 2025/12/02, 400, [Failed to create booking], Validate Error Msg - CheckOut Date format p...)">bookingDatesErrorMsg(2025-12-01, 2025/12/02, 400, [Failed to create booking], Validate Error Msg - CheckOut Date format p...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingDatesErrorMsg(2025-12-01, test, 400, [Failed to create booking], Validate Error Msg - CheckOut Date is not Date Va...)">bookingDatesErrorMsg(2025-12-01, test, 400, [Failed to create booking], Validate Error Msg - CheckOut Date is not Date Va...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Siva, Kumari, true, test@, 24433234324, 400, [must be a well-formed email address], Validate Erro...)">bookingFieldsErrorMsg(2, Siva, Kumari, true, test@, 24433234324, 400, [must be a well-formed email address], Validate Erro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(401, SivakumariTestTest, Kumari, true, test1@gmail.com, 24433234324, 200, null, Validate Success Boo...)">bookingFieldsErrorMsg(401, SivakumariTestTest, Kumari, true, test1@gmail.com, 24433234324, 200, null, Validate Success Boo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(301, Siva, KumariKumariKumariKumariKumari, true, test1@gmail.com, 24433234324, 200, null, Validate S...)">bookingFieldsErrorMsg(301, Siva, KumariKumariKumariKumariKumari, true, test1@gmail.com, 24433234324, 200, null, Validate S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com, 4433234324, 400, [size must be between 11 and 21], Validate ...)">bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com, 4433234324, 400, [size must be between 11 and 21], Validate ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Siva, Kumari, true,  , 24433234324, 400, [must be a well-formed email address], Validate Error Ms...)">bookingFieldsErrorMsg(2, Siva, Kumari, true,  , 24433234324, 400, [must be a well-formed email address], Validate Error Ms...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(4, Siva, Kumari, true, test1@gmail.com, 44332343244, 200, null, Validate Success Booking - Phone Val...)">bookingFieldsErrorMsg(4, Siva, Kumari, true, test1@gmail.com, 44332343244, 200, null, Validate Success Booking - Phone Val...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(101, Siva, Kum, true, test1@gmail.com, 24433234324, 200, null, Validate Success Booking - LastName i...)">bookingFieldsErrorMsg(101, Siva, Kum, true, test1@gmail.com, 24433234324, 200, null, Validate Success Booking - LastName i...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Siva, null, true, test1@gmail.com, 24433234324, 400, [Lastname should not be blank], Validate Err...)">bookingFieldsErrorMsg(2, Siva, null, true, test1@gmail.com, 24433234324, 400, [Lastname should not be blank], Validate Err...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(1, Siva, Kumari, true, test1@gmail.com, 443323432444343536354, 200, null, Validate Success Booking -...)">bookingFieldsErrorMsg(1, Siva, Kumari, true, test1@gmail.com, 443323432444343536354, 200, null, Validate Success Booking -...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Siva, , true, test1@gmail.com, 24433234324, 400, [Lastname should not be blank, size must be betw...)">bookingFieldsErrorMsg(2, Siva, , true, test1@gmail.com, 24433234324, 400, [Lastname should not be blank, size must be betw...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Siva, Kumari, true, test, 24433234324, 400, [must be a well-formed email address], Validate Error...)">bookingFieldsErrorMsg(2, Siva, Kumari, true, test, 24433234324, 400, [must be a well-formed email address], Validate Error...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(null, Siva, Kumari, true, test1@gmail.com, 24433234324, 400, [must be greater than or equal to 1], R...)">bookingFieldsErrorMsg(null, Siva, Kumari, true, test1@gmail.com, 24433234324, 400, [must be greater than or equal to 1], R...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, SivakumariSadasivam, Kumari, true, test1@gmail.com, 24433234324, 400, [size must be between 3 and...)">bookingFieldsErrorMsg(2, SivakumariSadasivam, Kumari, true, test1@gmail.com, 24433234324, 400, [size must be between 3 and...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com,  , 400, [size must be between 11 and 21], Validate Error Msg...)">bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com,  , 400, [size must be between 11 and 21], Validate Error Msg...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(201, Siv, Kumari, true, test1@gmail.com, 24433234324, 200, null, Validate Success Booking - FirstNam...)">bookingFieldsErrorMsg(201, Siv, Kumari, true, test1@gmail.com, 24433234324, 200, null, Validate Success Booking - FirstNam...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com, 4433234324443323432422, 400, [size must be between 11 and 21...)">bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com, 4433234324443323432422, 400, [size must be between 11 and 21...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(3, admin, admin, true, test1@gmail.com, null, 400, [Failed to create booking], Validate Error Msg - ...)">bookingFieldsErrorMsg(3, admin, admin, true, test1@gmail.com, null, 400, [Failed to create booking], Validate Error Msg - ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Siva, Kumari, true, null, 24433234324, 400, [Failed to create booking], Validate Error Msg - Emai...)">bookingFieldsErrorMsg(2, Siva, Kumari, true, null, 24433234324, 400, [Failed to create booking], Validate Error Msg - Emai...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Si, Kumari, true, test1@gmail.com, 24433234324, 400, [size must be between 3 and 18], Validate Er...)">bookingFieldsErrorMsg(2, Si, Kumari, true, test1@gmail.com, 24433234324, 400, [size must be between 3 and 18], Validate Er...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com, , 400, [size must be between 11 and 21, must not be empty], ...)">bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com, , 400, [size must be between 11 and 21, must not be empty], ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, , Kumari, true, test1@gmail.com, 24433234324, 400, [Firstname should not be blank, size must be b...)">bookingFieldsErrorMsg(2, , Kumari, true, test1@gmail.com, 24433234324, 400, [Firstname should not be blank, size must be b...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, null, Kumari, true, test1@gmail.com, 24433234324, 400, [Firstname should not be blank], Validate ...)">bookingFieldsErrorMsg(2, null, Kumari, true, test1@gmail.com, 24433234324, 400, [Firstname should not be blank], Validate ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Siva,  , true, test1@gmail.com, 24433234324, 400, [Lastname should not be blank, size must be bet...)">bookingFieldsErrorMsg(2, Siva,  , true, test1@gmail.com, 24433234324, 400, [Lastname should not be blank, size must be bet...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Siva, Ku, true, test1@gmail.com, 24433234324, 400, [size must be between 3 and 30], Validate Erro...)">bookingFieldsErrorMsg(2, Siva, Ku, true, test1@gmail.com, 24433234324, 400, [size must be between 3 and 30], Validate Erro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Siva, Kumari, true, , 24433234324, 400, [must not be empty], Validate Error Msg - Email Value is ...)">bookingFieldsErrorMsg(2, Siva, Kumari, true, , 24433234324, 400, [must not be empty], Validate Error Msg - Email Value is ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2, Siva, KumariKumariKumariKumariKumariKumari, true, test1@gmail.com, 24433234324, 400, [size must b...)">bookingFieldsErrorMsg(2, Siva, KumariKumariKumariKumariKumariKumari, true, test1@gmail.com, 24433234324, 400, [size must b...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="bookingFieldsErrorMsg(2,  , Kumari, true, test1@gmail.com, 24433234324, 400, [Firstname should not be blank, size must be ...)">bookingFieldsErrorMsg(2,  , Kumari, true, test1@gmail.com, 24433234324, 400, [Firstname should not be blank, size must be ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="createBooking(2, Siva, Kumari, false, test1@gmail.com, 24433234324, 200, Create Booking when Deposit Paid is False)">createBooking(2, Siva, Kumari, false, test1@gmail.com, 24433234324, 200, Create Booking when Deposit Paid is False)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="createBooking(1, Siva, Kumari, true, test1@gmail.com, 24433234324, 200, Create Booking With all Valid Input)">createBooking(1, Siva, Kumari, true, test1@gmail.com, 24433234324, 200, Create Booking With all Valid Input)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="createBookingInvalidEndpoint">createBookingInvalidEndpoint</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.CreateBookingTest" class="method navigator-link" hash-for-method="createBookingInvalidRequestType">createBookingInvalidRequestType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.DeleteBookingTest" class="method navigator-link" hash-for-method="deleteBooking">deleteBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Booking_API_Suite" title="com.booking.TesNGBooking.DeleteBookingTest" class="method navigator-link" hash-for-method="deleteInvalidBooking">deleteInvalidBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Booking_API_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Booking_API_Suite" class="panel Booking_API_Suite">
+          <div class="suite-Booking_API_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.booking.TesNGBooking.CreateBookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingDatesErrorMsg(2025-12-01, 2024-11-30, 400, [Checkout Date is less than Current Date], Validate Error Msg - Checkou...)">
+                  </a> <!-- bookingDatesErrorMsg(2025-12-01, 2024-11-30, 400, [Checkout Date is less than Current Date], Validate Error Msg - Checkou...) -->
+                  <span class="method-name">bookingDatesErrorMsg</span>
+                  <span class="parameters">(2025-12-01,2024-11-30,400,[Checkout Date is less than Current Date],Validate Error Msg - Checkout Date is less than Current Date)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Status Code is Wrong expected [400] but found [500]
+	at com.booking.TesNGBooking.CreateBookingTest.bookingDatesErrorMsg(CreateBookingTest.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingDatesErrorMsg(2024-12-25, 2024-12-26, 400, [Checkin Date is less than Current Date, Checkout Date is less than Cur...)">
+                  </a> <!-- bookingDatesErrorMsg(2024-12-25, 2024-12-26, 400, [Checkin Date is less than Current Date, Checkout Date is less than Cur...) -->
+                  <span class="method-name">bookingDatesErrorMsg</span>
+                  <span class="parameters">(2024-12-25,2024-12-26,400,[Checkin Date is less than Current Date, Checkout Date is less than Current Date],Validate Error Msg - Checkout and Checkin Date is less than Current Date)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Status Code is Wrong expected [400] but found [200]
+	at com.booking.TesNGBooking.CreateBookingTest.bookingDatesErrorMsg(CreateBookingTest.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingDatesErrorMsg(2025-12-01, 2025-11-30, 400, [Checkout Date is less than Checkin], Validate Error Msg - Checkout Dat...)">
+                  </a> <!-- bookingDatesErrorMsg(2025-12-01, 2025-11-30, 400, [Checkout Date is less than Checkin], Validate Error Msg - Checkout Dat...) -->
+                  <span class="method-name">bookingDatesErrorMsg</span>
+                  <span class="parameters">(2025-12-01,2025-11-30,400,[Checkout Date is less than Checkin],Validate Error Msg - Checkout Date is less than Checkin)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Status Code is Wrong expected [400] but found [500]
+	at com.booking.TesNGBooking.CreateBookingTest.bookingDatesErrorMsg(CreateBookingTest.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingDatesErrorMsg(2025-12-01, 2025-12-02, 400, [Both Dates are Same], Validate Error Msg - Both Checkin and Checkout d...)">
+                  </a> <!-- bookingDatesErrorMsg(2025-12-01, 2025-12-02, 400, [Both Dates are Same], Validate Error Msg - Both Checkin and Checkout d...) -->
+                  <span class="method-name">bookingDatesErrorMsg</span>
+                  <span class="parameters">(2025-12-01,2025-12-02,400,[Both Dates are Same],Validate Error Msg - Both Checkin and Checkout date is Same)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Status Code is Wrong expected [400] but found [500]
+	at com.booking.TesNGBooking.CreateBookingTest.bookingDatesErrorMsg(CreateBookingTest.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingDatesErrorMsg(2024-12-01, 2025-11-30, 400, [Checkin Date is less than Current Date], Validate Error Msg - Checkin ...)">
+                  </a> <!-- bookingDatesErrorMsg(2024-12-01, 2025-11-30, 400, [Checkin Date is less than Current Date], Validate Error Msg - Checkin ...) -->
+                  <span class="method-name">bookingDatesErrorMsg</span>
+                  <span class="parameters">(2024-12-01,2025-11-30,400,[Checkin Date is less than Current Date],Validate Error Msg - Checkin Date is less than Current Date)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Status Code is Wrong expected [400] but found [500]
+	at com.booking.TesNGBooking.CreateBookingTest.bookingDatesErrorMsg(CreateBookingTest.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Siva, Kumari, true, test@gmail, 24433234324, 400, [must not be empty], Validate Error Msg - Email...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Siva, Kumari, true, test@gmail, 24433234324, 400, [must not be empty], Validate Error Msg - Email...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Siva,Kumari,true,test@gmail,24433234324,400,[must not be empty],Validate Error Msg - Email Value is Without .com)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Wrong status code expected [400] but found [200]
+	at com.booking.TesNGBooking.CreateBookingTest.bookingFieldsErrorMsg(CreateBookingTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Booking_API_Suite-class-failed -->
+          <div class="suite-Booking_API_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.booking.TesNGBooking.DeleteBookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteBooking">
+                  </a> <!-- deleteBooking -->
+                  <span class="method-name">deleteBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteInvalidBooking">
+                  </a> <!-- deleteInvalidBooking -->
+                  <span class="method-name">deleteInvalidBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Booking_API_Suite-class-passed -->
+          <div class="suite-Booking_API_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.booking.TesNGBooking.CreateBookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingDatesErrorMsg(2025-12-01, null, 400, [must not be null], Validate Error Msg - CheckOut Date is null)">
+                  </a> <!-- bookingDatesErrorMsg(2025-12-01, null, 400, [must not be null], Validate Error Msg - CheckOut Date is null) -->
+                  <span class="method-name">bookingDatesErrorMsg</span>
+                  <span class="parameters">(2025-12-01,null,400,[must not be null],Validate Error Msg - CheckOut Date is null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingDatesErrorMsg(2025/12/01, 2025-12-02, 400, [Failed to create booking], Validate Error Msg - Checkin Date format pa...)">
+                  </a> <!-- bookingDatesErrorMsg(2025/12/01, 2025-12-02, 400, [Failed to create booking], Validate Error Msg - Checkin Date format pa...) -->
+                  <span class="method-name">bookingDatesErrorMsg</span>
+                  <span class="parameters">(2025/12/01,2025-12-02,400,[Failed to create booking],Validate Error Msg - Checkin Date format pattern is wrong)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingDatesErrorMsg(null, null, 400, [must not be null, must not be null], Validate Error Msg - CheckOut Date is null)">
+                  </a> <!-- bookingDatesErrorMsg(null, null, 400, [must not be null, must not be null], Validate Error Msg - CheckOut Date is null) -->
+                  <span class="method-name">bookingDatesErrorMsg</span>
+                  <span class="parameters">(null,null,400,[must not be null, must not be null],Validate Error Msg - CheckOut Date is null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingDatesErrorMsg(null, 2025-12-01, 400, [must not be null], Validate Error Msg - Checkin Date is null)">
+                  </a> <!-- bookingDatesErrorMsg(null, 2025-12-01, 400, [must not be null], Validate Error Msg - Checkin Date is null) -->
+                  <span class="method-name">bookingDatesErrorMsg</span>
+                  <span class="parameters">(null,2025-12-01,400,[must not be null],Validate Error Msg - Checkin Date is null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingDatesErrorMsg(test, 2025-12-01, 400, [Failed to create booking], Validate Error Msg - Checkin Date is not Date Val...)">
+                  </a> <!-- bookingDatesErrorMsg(test, 2025-12-01, 400, [Failed to create booking], Validate Error Msg - Checkin Date is not Date Val...) -->
+                  <span class="method-name">bookingDatesErrorMsg</span>
+                  <span class="parameters">(test,2025-12-01,400,[Failed to create booking],Validate Error Msg - Checkin Date is not Date Value)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingDatesErrorMsg(2025-12-01, 2025/12/02, 400, [Failed to create booking], Validate Error Msg - CheckOut Date format p...)">
+                  </a> <!-- bookingDatesErrorMsg(2025-12-01, 2025/12/02, 400, [Failed to create booking], Validate Error Msg - CheckOut Date format p...) -->
+                  <span class="method-name">bookingDatesErrorMsg</span>
+                  <span class="parameters">(2025-12-01,2025/12/02,400,[Failed to create booking],Validate Error Msg - CheckOut Date format pattern is wrong)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingDatesErrorMsg(2025-12-01, test, 400, [Failed to create booking], Validate Error Msg - CheckOut Date is not Date Va...)">
+                  </a> <!-- bookingDatesErrorMsg(2025-12-01, test, 400, [Failed to create booking], Validate Error Msg - CheckOut Date is not Date Va...) -->
+                  <span class="method-name">bookingDatesErrorMsg</span>
+                  <span class="parameters">(2025-12-01,test,400,[Failed to create booking],Validate Error Msg - CheckOut Date is not Date Value)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Siva, Kumari, true, test@, 24433234324, 400, [must be a well-formed email address], Validate Erro...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Siva, Kumari, true, test@, 24433234324, 400, [must be a well-formed email address], Validate Erro...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Siva,Kumari,true,test@,24433234324,400,[must be a well-formed email address],Validate Error Msg - Email Value is Without Domain(No content after@))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(401, SivakumariTestTest, Kumari, true, test1@gmail.com, 24433234324, 200, null, Validate Success Boo...)">
+                  </a> <!-- bookingFieldsErrorMsg(401, SivakumariTestTest, Kumari, true, test1@gmail.com, 24433234324, 200, null, Validate Success Boo...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(401,SivakumariTestTest,Kumari,true,test1@gmail.com,24433234324,200,null,Validate Success Booking - FirstName is of size 18)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(301, Siva, KumariKumariKumariKumariKumari, true, test1@gmail.com, 24433234324, 200, null, Validate S...)">
+                  </a> <!-- bookingFieldsErrorMsg(301, Siva, KumariKumariKumariKumariKumari, true, test1@gmail.com, 24433234324, 200, null, Validate S...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(301,Siva,KumariKumariKumariKumariKumari,true,test1@gmail.com,24433234324,200,null,Validate Success Booking - LastName is of size 30)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com, 4433234324, 400, [size must be between 11 and 21], Validate ...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com, 4433234324, 400, [size must be between 11 and 21], Validate ...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Siva,Kumari,true,test1@gmail.com,4433234324,400,[size must be between 11 and 21],Validate Error Msg - Phone Value is less than 11 numbers)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Siva, Kumari, true,  , 24433234324, 400, [must be a well-formed email address], Validate Error Ms...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Siva, Kumari, true,  , 24433234324, 400, [must be a well-formed email address], Validate Error Ms...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Siva,Kumari,true, ,24433234324,400,[must be a well-formed email address],Validate Error Msg - Email Value is Empty with Space)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(4, Siva, Kumari, true, test1@gmail.com, 44332343244, 200, null, Validate Success Booking - Phone Val...)">
+                  </a> <!-- bookingFieldsErrorMsg(4, Siva, Kumari, true, test1@gmail.com, 44332343244, 200, null, Validate Success Booking - Phone Val...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(4,Siva,Kumari,true,test1@gmail.com,44332343244,200,null,Validate Success Booking - Phone Value size is 11)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(101, Siva, Kum, true, test1@gmail.com, 24433234324, 200, null, Validate Success Booking - LastName i...)">
+                  </a> <!-- bookingFieldsErrorMsg(101, Siva, Kum, true, test1@gmail.com, 24433234324, 200, null, Validate Success Booking - LastName i...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(101,Siva,Kum,true,test1@gmail.com,24433234324,200,null,Validate Success Booking - LastName is of size 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Siva, null, true, test1@gmail.com, 24433234324, 400, [Lastname should not be blank], Validate Err...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Siva, null, true, test1@gmail.com, 24433234324, 400, [Lastname should not be blank], Validate Err...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Siva,null,true,test1@gmail.com,24433234324,400,[Lastname should not be blank],Validate Error Msg - LastName is null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(1, Siva, Kumari, true, test1@gmail.com, 443323432444343536354, 200, null, Validate Success Booking -...)">
+                  </a> <!-- bookingFieldsErrorMsg(1, Siva, Kumari, true, test1@gmail.com, 443323432444343536354, 200, null, Validate Success Booking -...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(1,Siva,Kumari,true,test1@gmail.com,443323432444343536354,200,null,Validate Success Booking - Phone Value size is 21)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Siva, , true, test1@gmail.com, 24433234324, 400, [Lastname should not be blank, size must be betw...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Siva, , true, test1@gmail.com, 24433234324, 400, [Lastname should not be blank, size must be betw...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Siva,,true,test1@gmail.com,24433234324,400,[Lastname should not be blank, size must be between 3 and 30],Validate Error Msg - LastName is empty)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Siva, Kumari, true, test, 24433234324, 400, [must be a well-formed email address], Validate Error...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Siva, Kumari, true, test, 24433234324, 400, [must be a well-formed email address], Validate Error...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Siva,Kumari,true,test,24433234324,400,[must be a well-formed email address],Validate Error Msg - Email Value is Without @)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(null, Siva, Kumari, true, test1@gmail.com, 24433234324, 400, [must be greater than or equal to 1], R...)">
+                  </a> <!-- bookingFieldsErrorMsg(null, Siva, Kumari, true, test1@gmail.com, 24433234324, 400, [must be greater than or equal to 1], R...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(null,Siva,Kumari,true,test1@gmail.com,24433234324,400,[must be greater than or equal to 1],Room ID is null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, SivakumariSadasivam, Kumari, true, test1@gmail.com, 24433234324, 400, [size must be between 3 and...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, SivakumariSadasivam, Kumari, true, test1@gmail.com, 24433234324, 400, [size must be between 3 and...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,SivakumariSadasivam,Kumari,true,test1@gmail.com,24433234324,400,[size must be between 3 and 18],Validate Error Msg - FirstName is greater than 18)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com,  , 400, [size must be between 11 and 21], Validate Error Msg...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com,  , 400, [size must be between 11 and 21], Validate Error Msg...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Siva,Kumari,true,test1@gmail.com, ,400,[size must be between 11 and 21],Validate Error Msg - Phone Value is empty spaces)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(201, Siv, Kumari, true, test1@gmail.com, 24433234324, 200, null, Validate Success Booking - FirstNam...)">
+                  </a> <!-- bookingFieldsErrorMsg(201, Siv, Kumari, true, test1@gmail.com, 24433234324, 200, null, Validate Success Booking - FirstNam...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(201,Siv,Kumari,true,test1@gmail.com,24433234324,200,null,Validate Success Booking - FirstName is of size 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com, 4433234324443323432422, 400, [size must be between 11 and 21...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com, 4433234324443323432422, 400, [size must be between 11 and 21...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Siva,Kumari,true,test1@gmail.com,4433234324443323432422,400,[size must be between 11 and 21],Validate Error Msg - Phone Value is more than 21 numbers)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(3, admin, admin, true, test1@gmail.com, null, 400, [Failed to create booking], Validate Error Msg - ...)">
+                  </a> <!-- bookingFieldsErrorMsg(3, admin, admin, true, test1@gmail.com, null, 400, [Failed to create booking], Validate Error Msg - ...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(3,admin,admin,true,test1@gmail.com,null,400,[Failed to create booking],Validate Error Msg - Phone Value is null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Siva, Kumari, true, null, 24433234324, 400, [Failed to create booking], Validate Error Msg - Emai...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Siva, Kumari, true, null, 24433234324, 400, [Failed to create booking], Validate Error Msg - Emai...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Siva,Kumari,true,null,24433234324,400,[Failed to create booking],Validate Error Msg - Email Value is null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Si, Kumari, true, test1@gmail.com, 24433234324, 400, [size must be between 3 and 18], Validate Er...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Si, Kumari, true, test1@gmail.com, 24433234324, 400, [size must be between 3 and 18], Validate Er...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Si,Kumari,true,test1@gmail.com,24433234324,400,[size must be between 3 and 18],Validate Error Msg - FirstName is less than 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com, , 400, [size must be between 11 and 21, must not be empty], ...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com, , 400, [size must be between 11 and 21, must not be empty], ...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Siva,Kumari,true,test1@gmail.com,,400,[size must be between 11 and 21, must not be empty],Validate Error Msg - Phone Value is empty)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, , Kumari, true, test1@gmail.com, 24433234324, 400, [Firstname should not be blank, size must be b...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, , Kumari, true, test1@gmail.com, 24433234324, 400, [Firstname should not be blank, size must be b...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,,Kumari,true,test1@gmail.com,24433234324,400,[Firstname should not be blank, size must be between 3 and 18],Validate Error Msg - FirstName is empty)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, null, Kumari, true, test1@gmail.com, 24433234324, 400, [Firstname should not be blank], Validate ...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, null, Kumari, true, test1@gmail.com, 24433234324, 400, [Firstname should not be blank], Validate ...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,null,Kumari,true,test1@gmail.com,24433234324,400,[Firstname should not be blank],Validate Error Msg - FirstName is null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Siva,  , true, test1@gmail.com, 24433234324, 400, [Lastname should not be blank, size must be bet...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Siva,  , true, test1@gmail.com, 24433234324, 400, [Lastname should not be blank, size must be bet...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Siva, ,true,test1@gmail.com,24433234324,400,[Lastname should not be blank, size must be between 3 and 30],Validate Error Msg - LastName is empty with spaces)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Siva, Ku, true, test1@gmail.com, 24433234324, 400, [size must be between 3 and 30], Validate Erro...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Siva, Ku, true, test1@gmail.com, 24433234324, 400, [size must be between 3 and 30], Validate Erro...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Siva,Ku,true,test1@gmail.com,24433234324,400,[size must be between 3 and 30],Validate Error Msg - LastName is less than 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Siva, Kumari, true, , 24433234324, 400, [must not be empty], Validate Error Msg - Email Value is ...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Siva, Kumari, true, , 24433234324, 400, [must not be empty], Validate Error Msg - Email Value is ...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Siva,Kumari,true,,24433234324,400,[must not be empty],Validate Error Msg - Email Value is Empty)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2, Siva, KumariKumariKumariKumariKumariKumari, true, test1@gmail.com, 24433234324, 400, [size must b...)">
+                  </a> <!-- bookingFieldsErrorMsg(2, Siva, KumariKumariKumariKumariKumariKumari, true, test1@gmail.com, 24433234324, 400, [size must b...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2,Siva,KumariKumariKumariKumariKumariKumari,true,test1@gmail.com,24433234324,400,[size must be between 3 and 30],Validate Error Msg - LastName is greater than 30)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFieldsErrorMsg(2,  , Kumari, true, test1@gmail.com, 24433234324, 400, [Firstname should not be blank, size must be ...)">
+                  </a> <!-- bookingFieldsErrorMsg(2,  , Kumari, true, test1@gmail.com, 24433234324, 400, [Firstname should not be blank, size must be ...) -->
+                  <span class="method-name">bookingFieldsErrorMsg</span>
+                  <span class="parameters">(2, ,Kumari,true,test1@gmail.com,24433234324,400,[Firstname should not be blank, size must be between 3 and 18],Validate Error Msg - FirstName is empty spaces)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createBooking(2, Siva, Kumari, false, test1@gmail.com, 24433234324, 200, Create Booking when Deposit Paid is False)">
+                  </a> <!-- createBooking(2, Siva, Kumari, false, test1@gmail.com, 24433234324, 200, Create Booking when Deposit Paid is False) -->
+                  <span class="method-name">createBooking</span>
+                  <span class="parameters">(2,Siva,Kumari,false,test1@gmail.com,24433234324,200,Create Booking when Deposit Paid is False)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createBooking(1, Siva, Kumari, true, test1@gmail.com, 24433234324, 200, Create Booking With all Valid Input)">
+                  </a> <!-- createBooking(1, Siva, Kumari, true, test1@gmail.com, 24433234324, 200, Create Booking With all Valid Input) -->
+                  <span class="method-name">createBooking</span>
+                  <span class="parameters">(1,Siva,Kumari,true,test1@gmail.com,24433234324,200,Create Booking With all Valid Input)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createBookingInvalidEndpoint">
+                  </a> <!-- createBookingInvalidEndpoint -->
+                  <span class="method-name">createBookingInvalidEndpoint</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createBookingInvalidRequestType">
+                  </a> <!-- createBookingInvalidRequestType -->
+                  <span class="method-name">createBookingInvalidRequestType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Booking_API_Suite-class-passed -->
+        </div> <!-- panel Booking_API_Suite -->
+        <div panel-name="test-xml-Booking_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\91994\Desktop\Assignments\Expleo_API_Testing_Kata\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Booking API Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;io.qameta.allure.testng.AllureTestNg&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Booking API Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.booking.TesNGBooking.CreateBookingTest&quot;/&gt;
+      &lt;class name=&quot;com.booking.TesNGBooking.DeleteBookingTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Booking API Tests --&gt;
+&lt;/suite&gt; &lt;!-- Booking API Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Booking_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Booking API Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Booking API Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Booking_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Booking API Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">create</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">createBooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">bookingDatesErrorMsg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">bookingFieldsErrorMsg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createBooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createBookingInvalidEndpoint</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createBookingInvalidRequestType</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">deleteBooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">deleteInvalidBooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">bookingDatesErrorMsg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">bookingFieldsErrorMsg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createBooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createBookingInvalidEndpoint</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createBookingInvalidRequestType</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">deleteBooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">deleteInvalidBooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Booking_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Booking API Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Booking_API_Suite');
+function tableData_Booking_API_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(46);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'bookingFieldsErrorMsg')
+data.setCell(0, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(0, 3, 2092);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'bookingFieldsErrorMsg')
+data.setCell(1, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(1, 3, 1309);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'bookingFieldsErrorMsg')
+data.setCell(2, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(2, 3, 631);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'deleteBooking')
+data.setCell(3, 2, 'com.booking.TesNGBooking.DeleteBookingTest')
+data.setCell(3, 3, 622);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'bookingFieldsErrorMsg')
+data.setCell(4, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(4, 3, 617);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'bookingDatesErrorMsg')
+data.setCell(5, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(5, 3, 608);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'bookingFieldsErrorMsg')
+data.setCell(6, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(6, 3, 591);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'bookingFieldsErrorMsg')
+data.setCell(7, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(7, 3, 557);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'bookingFieldsErrorMsg')
+data.setCell(8, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(8, 3, 475);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'bookingDatesErrorMsg')
+data.setCell(9, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(9, 3, 460);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'bookingDatesErrorMsg')
+data.setCell(10, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(10, 3, 446);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createBookingInvalidEndpoint')
+data.setCell(11, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(11, 3, 442);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'bookingDatesErrorMsg')
+data.setCell(12, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(12, 3, 441);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'bookingFieldsErrorMsg')
+data.setCell(13, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(13, 3, 391);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'bookingFieldsErrorMsg')
+data.setCell(14, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(14, 3, 354);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'bookingFieldsErrorMsg')
+data.setCell(15, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(15, 3, 344);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'createBooking')
+data.setCell(16, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(16, 3, 304);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'bookingDatesErrorMsg')
+data.setCell(17, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(17, 3, 304);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'bookingFieldsErrorMsg')
+data.setCell(18, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(18, 3, 285);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'bookingDatesErrorMsg')
+data.setCell(19, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(19, 3, 278);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'bookingDatesErrorMsg')
+data.setCell(20, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(20, 3, 273);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'bookingDatesErrorMsg')
+data.setCell(21, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(21, 3, 269);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'bookingFieldsErrorMsg')
+data.setCell(22, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(22, 3, 267);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'bookingFieldsErrorMsg')
+data.setCell(23, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(23, 3, 260);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'bookingFieldsErrorMsg')
+data.setCell(24, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(24, 3, 257);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'bookingFieldsErrorMsg')
+data.setCell(25, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(25, 3, 252);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'bookingFieldsErrorMsg')
+data.setCell(26, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(26, 3, 251);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'bookingFieldsErrorMsg')
+data.setCell(27, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(27, 3, 245);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'bookingFieldsErrorMsg')
+data.setCell(28, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(28, 3, 244);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'createBookingInvalidRequestType')
+data.setCell(29, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(29, 3, 244);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'bookingDatesErrorMsg')
+data.setCell(30, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(30, 3, 240);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'bookingFieldsErrorMsg')
+data.setCell(31, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(31, 3, 240);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'bookingFieldsErrorMsg')
+data.setCell(32, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(32, 3, 239);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'bookingFieldsErrorMsg')
+data.setCell(33, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(33, 3, 237);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'deleteInvalidBooking')
+data.setCell(34, 2, 'com.booking.TesNGBooking.DeleteBookingTest')
+data.setCell(34, 3, 234);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'bookingFieldsErrorMsg')
+data.setCell(35, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(35, 3, 234);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'bookingFieldsErrorMsg')
+data.setCell(36, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(36, 3, 232);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'bookingFieldsErrorMsg')
+data.setCell(37, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(37, 3, 231);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'bookingFieldsErrorMsg')
+data.setCell(38, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(38, 3, 230);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'bookingFieldsErrorMsg')
+data.setCell(39, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(39, 3, 230);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'createBooking')
+data.setCell(40, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(40, 3, 227);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'bookingDatesErrorMsg')
+data.setCell(41, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(41, 3, 224);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'bookingFieldsErrorMsg')
+data.setCell(42, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(42, 3, 221);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'bookingDatesErrorMsg')
+data.setCell(43, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(43, 3, 220);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'bookingDatesErrorMsg')
+data.setCell(44, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(44, 3, 219);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'bookingFieldsErrorMsg')
+data.setCell(45, 2, 'com.booking.TesNGBooking.CreateBookingTest')
+data.setCell(45, 3, 206);
+window.suiteTableData['Booking_API_Suite']= { tableData: data, tableDiv: 'times-div-Booking_API_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <div id="times-div-Booking_API_Suite">
+              </div> <!-- times-div-Booking_API_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Booking_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Booking API Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Booking_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Booking_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.booking.TesNGBooking.CreateBookingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">suiteSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">bookingDatesErrorMsg(null, 2025-12-01, 400, [must not be null], Validate Error Msg - Checkin Date is null)</span>
+                <span class="method-start">2136 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingDatesErrorMsg(2025-12-01, null, 400, [must not be null], Validate Error Msg - CheckOut Date is null)</span>
+                <span class="method-start">2793 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingDatesErrorMsg(null, null, 400, [must not be null, must not be null], Validate Error Msg - CheckOut Date is null)</span>
+                <span class="method-start">3075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingDatesErrorMsg(2025/12/01, 2025-12-02, 400, [Failed to create booking], Validate Error Msg - Checkin Date format pa...)</span>
+                <span class="method-start">3537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingDatesErrorMsg(2025-12-01, 2025/12/02, 400, [Failed to create booking], Validate Error Msg - CheckOut Date format p...)</span>
+                <span class="method-start">3985 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookingDatesErrorMsg(2025-12-01, 2025-12-02, 400, [Both Dates are Same], Validate Error Msg - Both Checkin and Checkout d...)</span>
+                <span class="method-start">4260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookingDatesErrorMsg(2024-12-01, 2025-11-30, 400, [Checkin Date is less than Current Date], Validate Error Msg - Checkin ...)</span>
+                <span class="method-start">4490 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookingDatesErrorMsg(2025-12-01, 2024-11-30, 400, [Checkout Date is less than Current Date], Validate Error Msg - Checkou...)</span>
+                <span class="method-start">4796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookingDatesErrorMsg(2025-12-01, 2025-11-30, 400, [Checkout Date is less than Checkin], Validate Error Msg - Checkout Dat...)</span>
+                <span class="method-start">5017 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookingDatesErrorMsg(2024-12-25, 2024-12-26, 400, [Checkin Date is less than Current Date, Checkout Date is less than Cur...)</span>
+                <span class="method-start">5460 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingDatesErrorMsg(test, 2025-12-01, 400, [Failed to create booking], Validate Error Msg - Checkin Date is not Date Val...)</span>
+                <span class="method-start">5683 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingDatesErrorMsg(2025-12-01, test, 400, [Failed to create booking], Validate Error Msg - CheckOut Date is not Date Va...)</span>
+                <span class="method-start">5925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(null, Siva, Kumari, true, test1@gmail.com, 24433234324, 400, [must be greater than or equal to 1], R...)</span>
+                <span class="method-start">6202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, Si, Kumari, true, test1@gmail.com, 24433234324, 400, [size must be between 3 and 18], Validate Er...)</span>
+                <span class="method-start">6426 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, SivakumariSadasivam, Kumari, true, test1@gmail.com, 24433234324, 400, [size must be between 3 and...)</span>
+                <span class="method-start">6668 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, , Kumari, true, test1@gmail.com, 24433234324, 400, [Firstname should not be blank, size must be b...)</span>
+                <span class="method-start">6938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2,  , Kumari, true, test1@gmail.com, 24433234324, 400, [Firstname should not be blank, size must be ...)</span>
+                <span class="method-start">7418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, null, Kumari, true, test1@gmail.com, 24433234324, 400, [Firstname should not be blank], Validate ...)</span>
+                <span class="method-start">7651 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(201, Siv, Kumari, true, test1@gmail.com, 24433234324, 200, null, Validate Success Booking - FirstNam...)</span>
+                <span class="method-start">7883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(401, SivakumariTestTest, Kumari, true, test1@gmail.com, 24433234324, 200, null, Validate Success Boo...)</span>
+                <span class="method-start">8121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, Siva, Ku, true, test1@gmail.com, 24433234324, 400, [size must be between 3 and 30], Validate Erro...)</span>
+                <span class="method-start">8329 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, Siva, KumariKumariKumariKumariKumariKumari, true, test1@gmail.com, 24433234324, 400, [size must b...)</span>
+                <span class="method-start">8675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(101, Siva, Kum, true, test1@gmail.com, 24433234324, 200, null, Validate Success Booking - LastName i...)</span>
+                <span class="method-start">8928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(301, Siva, KumariKumariKumariKumariKumari, true, test1@gmail.com, 24433234324, 200, null, Validate S...)</span>
+                <span class="method-start">9175 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, Siva, , true, test1@gmail.com, 24433234324, 400, [Lastname should not be blank, size must be betw...)</span>
+                <span class="method-start">9461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, Siva,  , true, test1@gmail.com, 24433234324, 400, [Lastname should not be blank, size must be bet...)</span>
+                <span class="method-start">9692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, Siva, null, true, test1@gmail.com, 24433234324, 400, [Lastname should not be blank], Validate Err...)</span>
+                <span class="method-start">9927 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookingFieldsErrorMsg(2, Siva, Kumari, true, test@gmail, 24433234324, 400, [must not be empty], Validate Error Msg - Email...)</span>
+                <span class="method-start">10520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, Siva, Kumari, true, test@, 24433234324, 400, [must be a well-formed email address], Validate Erro...)</span>
+                <span class="method-start">10763 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, Siva, Kumari, true, test, 24433234324, 400, [must be a well-formed email address], Validate Error...)</span>
+                <span class="method-start">12072 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, Siva, Kumari, true, , 24433234324, 400, [must not be empty], Validate Error Msg - Email Value is ...)</span>
+                <span class="method-start">12344 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, Siva, Kumari, true,  , 24433234324, 400, [must be a well-formed email address], Validate Error Ms...)</span>
+                <span class="method-start">12978 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, Siva, Kumari, true, null, 24433234324, 400, [Failed to create booking], Validate Error Msg - Emai...)</span>
+                <span class="method-start">13347 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com, 4433234324, 400, [size must be between 11 and 21], Validate ...)</span>
+                <span class="method-start">13607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com, 4433234324443323432422, 400, [size must be between 11 and 21...)</span>
+                <span class="method-start">13998 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(4, Siva, Kumari, true, test1@gmail.com, 44332343244, 200, null, Validate Success Booking - Phone Val...)</span>
+                <span class="method-start">14618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(1, Siva, Kumari, true, test1@gmail.com, 443323432444343536354, 200, null, Validate Success Booking -...)</span>
+                <span class="method-start">16710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com, , 400, [size must be between 11 and 21, must not be empty], ...)</span>
+                <span class="method-start">16944 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(2, Siva, Kumari, true, test1@gmail.com,  , 400, [size must be between 11 and 21], Validate Error Msg...)</span>
+                <span class="method-start">17504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookingFieldsErrorMsg(3, admin, admin, true, test1@gmail.com, null, 400, [Failed to create booking], Validate Error Msg - ...)</span>
+                <span class="method-start">17759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createBooking(1, Siva, Kumari, true, test1@gmail.com, 24433234324, 200, Create Booking With all Valid Input)</span>
+                <span class="method-start">18008 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createBooking(2, Siva, Kumari, false, test1@gmail.com, 24433234324, 200, Create Booking when Deposit Paid is False)</span>
+                <span class="method-start">18237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createBookingInvalidEndpoint</span>
+                <span class="method-start">18541 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createBookingInvalidRequestType</span>
+                <span class="method-start">18987 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.booking.TesNGBooking.DeleteBookingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">suiteSetup</span>
+                <span class="method-start">19231 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">deleteBooking</span>
+                <span class="method-start">19459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteInvalidBooking</span>
+                <span class="method-start">20081 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
